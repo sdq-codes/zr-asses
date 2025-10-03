@@ -64,7 +64,7 @@ docker-compose exec backend php artisan datastore:switch
 
 ## 🌐 Access Points
 
-- **Frontend (Nuxt)**: http://localhost:3000
+- **Frontend (Nuxt)**: http://localhost:5173
 - **Backend (Laravel)**: http://localhost:8000
 - **phpMyAdmin (MySQL)**: http://localhost:8080
 - **pgAdmin (PostgreSQL)**: http://localhost:8081

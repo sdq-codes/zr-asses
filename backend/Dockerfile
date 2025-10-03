@@ -20,6 +20,8 @@ COPY . .
 
 # Install dependencies (for local dev keep dev dependencies too)
 RUN composer install --no-interaction --prefer-dist
+RUN php artisan migrate
+RUN php artisan db:seed
 
 # Expose port 8000
 EXPOSE 8000
