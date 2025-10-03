@@ -61,7 +61,7 @@ docker-compose exec backend php artisan datastore:switch
    ```bash
    docker-compose exec backend php artisan migrate
    ```
-6**Run Laravel db seed**
+6. **Run Laravel migrations**
    ```bash
    docker-compose exec backend php artisan db:seed
    ```
